@@ -2,15 +2,18 @@
   "name": "simple-component",
   "version": "0.1.0",
   "description": "simple component for deploy test",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/bluemiv/simple-component.git",
-  "author": "taehongkim <public.bluemiv@gmail.com>",
+  "author": "taehongkim <public.bluemiv@gmail.com> (https://memostack.tistory.com/)",
   "license": "MIT",
   "private": false,
   "scripts": {
     "dev": "webpack-dev-server --progress --mode development",
     "build": "webpack --progress --mode production"
   },
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
