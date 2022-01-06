@@ -9,7 +9,8 @@
   "private": false,
   "scripts": {
     "dev": "webpack-dev-server --progress --mode development",
-    "build": "webpack --progress --mode production"
+    "build": "webpack --progress --mode production",
+    "prepublish": "yarn build"
   },
   "files": [
     "dist"
