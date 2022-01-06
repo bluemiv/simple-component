@@ -1,10 +1,10 @@
 {
-  "name": "simple-component",
+  "name": "bluemiv-simple-component",
   "version": "0.1.0",
   "description": "simple component for deploy test",
   "main": "dist/index.js",
   "repository": "https://github.com/bluemiv/simple-component.git",
-  "author": "taehongkim <public.bluemiv@gmail.com> (https://memostack.tistory.com/)",
+  "author": "bluemiv <public.bluemiv@gmail.com> (https://memostack.tistory.com/)",
   "license": "MIT",
   "private": false,
   "scripts": {
